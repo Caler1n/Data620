@@ -2524,7 +2524,7 @@
 		)
 		(uuid "ec515a6e-d6a4-4d5f-8bf4-0440feda679b")
 	)
-	(text "C4, C12, C19 - Nytronics Type 105 Polyester Film Cap\nAll Diodes are Germanium\nAll Transistor are 2N1499A\nAll Resistors are 1/2W 5% Carbon Composition "
+	(text "C4, C12, C19 - Nytronics Type 105 Polyester Film Cap\nAll Diodes are Germanium\nAll Transistor are 2N1499A\nAll Resistors are 1/2W 5% Carbon Composition \nConnector Elco Varicon 7000 or 5203 Series Contacts"
 		(exclude_from_sim no)
 		(at 211.836 173.736 0)
 		(effects
