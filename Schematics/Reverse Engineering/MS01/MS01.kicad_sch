@@ -1946,7 +1946,7 @@
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "GND"
+					(name "-12V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1964,7 +1964,7 @@
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "-12V"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2978,6 +2978,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 13.335 118.745)
+		(end 24.765 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c6169d5-9f47-41b3-9f82-361fc9468cb4)
+	)
+	(rectangle
+		(start 76.2 78.105)
+		(end 88.9 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43d716e2-aab5-4e85-8eed-ac469f195d7b)
+	)
+	(rectangle
+		(start 118.745 75.565)
+		(end 158.115 111.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed120cd7-c4d2-4525-ba6c-546a8264a7d9)
+	)
+	(rectangle
+		(start 222.25 152.4)
+		(end 236.22 158.115)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f504b8b4-f021-4648-bd7d-bf39236a75e6)
+	)
 	(text "-3V"
 		(exclude_from_sim no)
 		(at 87.63 31.496 0)
@@ -3200,6 +3248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e63faf38-3000-434b-9e22-1ba6df53e200")
+	)
+	(junction
+		(at 161.29 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a494bd-a2e0-412d-b52d-0de6778d1965")
 	)
 	(junction
 		(at 116.84 175.26)
@@ -3498,6 +3552,16 @@
 			(type default)
 		)
 		(uuid "29f81f54-be0c-43f0-b313-f09f7150b813")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308f376d-2d04-4a95-820e-b9b3cc6b70d7")
 	)
 	(wire
 		(pts
@@ -3881,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 92.71) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3f3354-51a2-4084-aadc-78113f2a316b")
+	)
+	(wire
+		(pts
 			(xy 41.91 85.09) (xy 41.91 86.36)
 		)
 		(stroke
@@ -3901,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 35.56) (xy 143.51 35.56)
+			(xy 143.51 35.56) (xy 161.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3938,6 +4012,16 @@
 			(type default)
 		)
 		(uuid "97b43a04-735e-492e-b22b-1be69ec37ba1")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c78ef45-b466-412c-bc9f-55c5182b8d11")
 	)
 	(wire
 		(pts
@@ -3988,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "b1a52bb4-0408-482f-a5eb-d093ef9ce4f4")
+	)
+	(wire
+		(pts
+			(xy 179.07 114.3) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c59a9f-df3e-4d14-bc68-cea5403160fe")
 	)
 	(wire
 		(pts
@@ -4161,6 +4255,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 124.46) (xy 104.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2f6ec8-60bb-4852-b366-435b7ecb7baa")
+	)
+	(wire
+		(pts
 			(xy 109.22 67.31) (xy 240.03 67.31)
 		)
 		(stroke
@@ -4208,36 +4312,6 @@
 			(justify left bottom)
 		)
 		(uuid "005b4728-aef0-47e1-924b-2205f225eb2d")
-	)
-	(label "??-P3"
-		(at 149.86 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "458009fe-d018-46a6-ad43-4690ee3070e2")
-	)
-	(label "??-P3"
-		(at 154.94 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66e2f2bf-e41f-483f-86dc-97faa91160b5")
-	)
-	(label "??-P3"
-		(at 104.14 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf6a08a6-9957-4207-8c3b-512ed749bb0d")
 	)
 	(label "OUT2"
 		(at 67.31 160.02 0)
@@ -4669,7 +4743,7 @@
 	)
 	(global_label "J1-19"
 		(shape input)
-		(at 128.27 93.98 180)
+		(at 128.27 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4679,7 +4753,7 @@
 		)
 		(uuid "6bb012f9-f689-4dd0-8f92-bc535d749bf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.1163 93.98 0)
+			(at 119.1163 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5051,7 @@
 	)
 	(global_label "J1-21"
 		(shape input)
-		(at 128.27 91.44 180)
+		(at 128.27 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4987,7 +5061,7 @@
 		)
 		(uuid "d08d3ff2-bc07-42ad-9d1d-b322944091be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.1163 91.44 0)
+			(at 119.1163 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "S1007"
 			(at 172.72 129.5401 0)
 			(effects
 				(font
@@ -5468,7 +5542,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20k?"
 			(at 83.82 83.8199 0)
 			(effects
 				(font
@@ -6077,7 +6151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "S1007"
 			(at 213.36 144.7801 0)
 			(effects
 				(font
@@ -6858,7 +6932,8 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 138.43 102.87 180)
+		(at 138.43 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7346,7 +7421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "S1007"
 			(at 242.57 149.8601 0)
 			(effects
 				(font
@@ -8086,7 +8161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "S1007"
 			(at 111.76 60.9601 0)
 			(effects
 				(font
@@ -8170,6 +8245,7 @@
 	(symbol
 		(lib_id "MS01:RLIC-12D")
 		(at 138.43 92.71 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8178,7 +8254,7 @@
 		(fields_autoplaced yes)
 		(uuid "759aef83-b5ee-405d-96e3-6edadd97a207")
 		(property "Reference" "U1"
-			(at 152.4 86.2898 0)
+			(at 152.4 99.1302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,14 +8262,14 @@
 			)
 		)
 		(property "Value" "RLIC-12D"
-			(at 152.4 88.8298 0)
+			(at 152.4 96.5902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MS01:RLIC-12D"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -8246,7 +8322,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 82.55 180)
+		(at 138.43 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8669,7 +8746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "S1007"
 			(at 93.98 128.2699 0)
 			(effects
 				(font
@@ -13590,7 +13667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "A1007"
 			(at 144.78 135.8901 0)
 			(effects
 				(font

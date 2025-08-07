@@ -66,7 +66,7 @@
 			(pin input line
 				(at -10.16 1.27 0)
 				(length 2.54)
-				(name "IN1"
+				(name "IN1?"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84,7 +84,7 @@
 			(pin input line
 				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "IN2"
+				(name "IN2?"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +138,7 @@
 			(pin input line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "OUT"
+				(name "OUT?"
 					(effects
 						(font
 							(size 1.27 1.27)
